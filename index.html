@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>maths functions</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+
+    <body>
+        <script src="./script.js"></script>
+
+        <label>f(x) = </label>
+        <input type="text" id="funcx" placeholder="..."/>
+
+        <label>g(x) = </label>
+        <input type="text" id="gfuncx" placeholder="..."/>
+
+        <label>x = </label>
+        <input type="text" id="x" placeholder="..."/>
+
+        <div class="preference">
+            <label>fg(x) or gf(x) or ff(x) or gg(x) or f(x) or g(x)?</label>
+            <div>
+                <label for="fgx">
+                    fg(x)
+                    <input type="radio" name="preference" id="fgx" value="fgx"/>
+                </label>
+                <label for="gfx">
+                    gf(x)
+                    <input type="radio" name="preference" id="gfx" value="gfx"/>
+                </label>
+                <label for="ffx">
+                    ff(x)
+                    <input type="radio" name="preference" id="ffx" value="ffx"/>
+                </label>
+                <label for="ggx">
+                    gg(x)
+                    <input type="radio" name="preference" id="ggx" value="ggx"/>
+                </label>   
+                <label for="f">
+                    f(x)
+                    <input type="radio" name="preference" id="fx" value="fx"/>
+                </label>
+                <label for="gx">
+                    g(x)
+                    <input type="radio" name="preference" id="gx" value="gx"/>
+                </label>   
+            </div>
+            
+        </div>
+        
+        <div class="resultContainer">
+            <p id="result"></p>
+        </div>
+
+        <button onclick="submit()">Calculate</button>
+    </body>
+</html>
