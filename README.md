@@ -1,5 +1,7 @@
 # functionssszzssszzzszzz
 
+visit the thing here: https://anosh-anosh.github.io/functionssszzssszzzszzz/
+
 since i'm finally gonna do computer science in school next year (starting a-levels this september) i thought i may as well write a little program. this is still wip btw.
 
 what it does is it takes user input, a maths function, and it turns it into somethign js can read.
