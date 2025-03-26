@@ -4,7 +4,7 @@ since i'm finally gonna do computer science in school next year (starting a-leve
 
 what it does is it takes user input, a maths function, and it turns it into somethign js can read.
 
-e.g.:
+e.g:
 
 user inputs `4x^2+3x-2`, and x = 7
 
@@ -14,7 +14,7 @@ then, it uses a function constructor so it can substitute the values of x.
 
 if you wanted your solution, first set all the things like f(x), g(x), x = , and the prefrence (doesn't do anything rn), then open the console and use the `calc()` function in this manner:
 
-`calc(<any integer or x here>, funcx`)
+`calc(<any integer or x here>, funcx)`
 
 and it will apply that number to the fucntion `f(x)` that you have defined
 
